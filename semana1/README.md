@@ -1,4 +1,4 @@
-***Introducción a la programación y Javascript***
+##  Introducción a la programación y Javascript
 
 Objetivo de la semana🏁
 
