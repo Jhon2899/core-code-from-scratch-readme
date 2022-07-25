@@ -64,5 +64,77 @@ x=dollarvalue*Bitcoinvalue;
 we write the result x 
 
 ```
-**4.lenguajes de alto y bajo nivel**
+**4.lenguajes de alto nivel**  
+## Miercoles  
+**1. ¿Tu fecha de nacimiento en la matriz?**
+```
+
+Algoritmo fechanacimiento
+entero fechanacimiento
+cadena caracter
+real resultado
+fechanacimiento=trunc(fechanacimiento)
+Mientras fechanacimiento>0
+resultado=fechanacimiento % 2=0
+si resultado entonces
+binario="0" + binario
+Sino
+binario="1"+binario
+Finsi
+fechanacimiento=trunc(fechanacimiento/2)
+Fin mientras
+
+imprimir binario  
+```
+**2. Ejercicio MIPS**  
+- Create a program that adds any two given numbers provided by the user  
+``` 
+.data
+     num1: .asciiz "\nIngrese el primer valor: "
+     num2: .asciiz "\nIngrese el segundo valor: "
+
+.text 
+    main:  
+     li $v0, 4
+              la $a0, num1
+              syscall
+
+     li $v0, 5
+     syscall
+
+              move $t0, $v0
+     li $v0, 4
+              la $a0, num2
+              syscall
+
+     li $v0, 5
+     syscall
+     move $t1, $v0
+
+     li $v0, 1
+     move $a0, $t0
+     syscall
+ 
+```
+
+
+
+- Create a program that displays your name
+```   
+.data 
+   Nombre: .asciiz "\nIngrese su nombre: "
+   
+   .text 
+        main:
+             li $v0, 4
+             la  $a0, Nombre
+             syscall 
+             li $v0, 5
+     syscall
+     move $t0, $v0
+     
+```
+
+
+ 
 
