@@ -88,7 +88,7 @@ imprimir binario
 ```
 **2. Ejercicio MIPS**  
 - Create a program that adds any two given numbers provided by the user  
-``` 
+``` assembly
 .data
      num1: .asciiz "\nIngrese el primer valor: "
      num2: .asciiz "\nIngrese el segundo valor: "
@@ -120,7 +120,7 @@ imprimir binario
 
 
 - Create a program that displays your name
-```   
+```   assembly
 .data 
    Nombre: .asciiz "\nIngrese su nombre: "
    
@@ -133,7 +133,24 @@ imprimir binario
      syscall
      move $t0, $v0
      
-```
+```  
+
+## Jueves  
+- Print special numbers  
+``` Javascript
+//let numpares = prompt("Ingrese un valor")
+//var num=100
+
+for( let i = 0 ; i <= 100; i++){
+  if ( i % 2 == 0) {
+    console.log(i);
+  }
+ 
+}  
+```  
+
+
+
 
 
  
