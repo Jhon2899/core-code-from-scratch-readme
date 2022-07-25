@@ -149,6 +149,38 @@ for( let i = 0 ; i <= 100; i++){
 }  
 ```  
 
+- Bad code
+the code presents an error because the variable "cond" is initialized as 'false' and when executed it is not doing that evaluation.  
+the corrected code is:  
+```Javascript  
+var cond = false;
+
+if ( cond == false) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}  
+``` 
+- Bad code 2  
+The code presents an error because the conditions are not evaluated correctly, and a message is displayed that is not. And to fix it we use nested conditions.  
+```Javascript  
+var n = 100;
+
+if (n == 100) {
+  console.log('This is a special number!');
+}
+else 
+  if (n < 1000) {
+  console.log('');
+    if (n % 10 == 0 & n !=100) {
+  console.log('this number is almost special');
+}else {
+  console.log('Just a regular number');
+}
+}  
+``` 
+
+  
 
 
 
