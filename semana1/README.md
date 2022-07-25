@@ -149,7 +149,7 @@ for( let i = 0 ; i <= 100; i++){
 }  
 ```  
 
-- Bad code
+- Bad code  
 the code presents an error because the variable "cond" is initialized as 'false' and when executed it is not doing that evaluation.  
 the corrected code is:  
 ```Javascript  
