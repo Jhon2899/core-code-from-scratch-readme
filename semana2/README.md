@@ -30,6 +30,11 @@ Más información sobre la estructura de Javascript
 ![image](https://user-images.githubusercontent.com/103481905/180944877-b7f11da2-288e-4574-bd3f-225f5ea591b2.png)  
 
 
+# :technologist: Desafíos de la semana (miércoles) :technologist:  
+## 1.Ejercicio Char From ASCII Value  
+
+
+
     
 
     
